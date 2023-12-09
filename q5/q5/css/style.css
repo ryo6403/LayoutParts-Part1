@@ -1,1 +1,135 @@
 @charset "UTF-8";
+
+/* ----------共通---------- */
+.flexitem{
+  color: #fff;
+  background: #00bbdd;
+  padding: 10px;
+  margin: 10px;
+  width: 65px;
+  text-align: center;
+}
+
+.griditem{
+  color: #fff;
+  background: #00bbdd;
+  padding: 10px;
+}
+
+/* ----------Q5-1-1---------- */
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+/* ----------Q5-1-2---------- */
+.flex-row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* ----------Q5-1-3---------- */
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------Q5-1-4---------- */
+
+.flex-column-reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* ----------Q5-2-1---------- */
+.flex-nowrap{
+  display: flex;
+}
+
+/* ----------Q5-2-2---------- */
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------Q5-2-3---------- */
+.flex-wrap-reverse{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* ----------Q5-3-1---------- */
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* ----------Q5-3-2---------- */
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ----------Q5-3-3---------- */
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+/* ----------Q5-3-4---------- */
+.flex-space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ----------Q5-3-5---------- */
+.flex-space-around{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ----------Q5-4-1---------- */
+.grid-layout-200px{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px;
+  margin-bottom: 20px;
+
+}
+
+/* ----------Q5-4-2---------- */
+.grid-layout-fr{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* ----------Q5-4-3---------- */
+.grid-layout-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+/* ----------Q5-4-5---------- */
+.grid-layout-extra{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.redbox{
+  background: #dd0700;
+  grid-column: 1 / 3;
+}
+.greenbox{
+  background: #0bdd00;
+  grid-row: 2 / 4;
+}
+.yellowbox{
+  background: #d9dd00;
+  grid-column: 2 / 4;
+}

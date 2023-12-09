@@ -1,32 +1,178 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>LayoutParts-Q3</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LayoutParts-Q3</title>
+  </head>
 
-<body>
-  <div class="wrapper">
-    <h1 class="title">基本レイアウト・パーツ</h1>
-    <h2 class="sub--title">Q5flex,grid</h2>
-    <h3 class="question--title">Q5-1 横並び・縦並び</h3>
-    <!-- Q5-1回答はここから -->
-    <!-- Q5-1回答はここまで -->
-    <h3 class="question--title">Q5-2 折り返し</h3>
-    <!-- Q5-2回答はここから -->
-    <!-- Q5-2回答はここまで -->
-    <h3 class="question--title">Q5-3 水平方向揃え</h3>
-    <!-- Q5-3回答はここから -->
-    <!-- Q5-3回答はここまで -->
-    <h3 class="question--title">Q5-4 グリッドレイアウト</h3>
-    <!-- Q5-4回答はここから -->
-    <!-- Q5-4回答はここまで -->
-  </div>
-</body>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">基本レイアウト・パーツ</h1>
+      <h2 class="sub--title">Q5flex,grid</h2>
+      <h3 class="question--title">Q5-1 横並び・縦並び</h3>
+      <!-- Q5-1回答はここから -->
+      <div class="flex-row">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <div class="flex-row-reverse">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <div class="flex-column">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <div class="flex-column-reverse">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <!-- Q5-1回答はここまで -->
+      <!-- Q5-2回答はここから -->
+      <h3 class="question--title">Q5-2 折り返し</h3>
+      <div class="flex-nowrap">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+        <div class="flexitem">item6</div>
+        <div class="flexitem">item7</div>
+        <div class="flexitem">item8</div>
+        <div class="flexitem">item9</div>
+        <div class="flexitem">item10</div>
+        <div class="flexitem">item11</div>
+        <div class="flexitem">item12</div>
+        <div class="flexitem">item13</div>
+        <div class="flexitem">item14</div>
+        <div class="flexitem">item15</div>
+      </div>
+      <div class="flex-wrap">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+        <div class="flexitem">item6</div>
+        <div class="flexitem">item7</div>
+        <div class="flexitem">item8</div>
+        <div class="flexitem">item9</div>
+        <div class="flexitem">item10</div>
+        <div class="flexitem">item11</div>
+        <div class="flexitem">item12</div>
+        <div class="flexitem">item13</div>
+        <div class="flexitem">item14</div>
+        <div class="flexitem">item15</div>
+      </div>
+      <div class="flex-wrap-reverse">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+        <div class="flexitem">item6</div>
+        <div class="flexitem">item7</div>
+        <div class="flexitem">item8</div>
+        <div class="flexitem">item9</div>
+        <div class="flexitem">item10</div>
+        <div class="flexitem">item11</div>
+        <div class="flexitem">item12</div>
+        <div class="flexitem">item13</div>
+        <div class="flexitem">item14</div>
+        <div class="flexitem">item15</div>
+      </div>
+      <!-- Q5-2回答はここまで -->
+      <h3 class="question--title">Q5-3 水平方向揃え</h3>
+      <!-- Q5-3回答はここから -->
+      <div class="flex-start">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <div class="flex-end">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <div class="flex-center">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <div class="flex-space-between">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <div class="flex-space-around">
+        <div class="flexitem">item1</div>
+        <div class="flexitem">item2</div>
+        <div class="flexitem">item3</div>
+        <div class="flexitem">item4</div>
+        <div class="flexitem">item5</div>
+      </div>
+      <!-- Q5-3回答はここまで -->
+      <h3 class="question--title">Q5-4 グリッドレイアウト</h3>
+      <!-- Q5-4回答はここから -->
+      <div class="grid-layout-200px">
+        <div class="griditem">item1</div>
+        <div class="griditem">item2</div>
+        <div class="griditem">item3</div>
+        <div class="griditem">item4</div>
+        <div class="griditem">item5</div>
+        <div class="griditem">item6</div>
+      </div>
+      <div class="grid-layout-fr">
+        <div class="griditem">item1</div>
+        <div class="griditem">item2</div>
+        <div class="griditem">item3</div>
+        <div class="griditem">item4</div>
+        <div class="griditem">item5</div>
+        <div class="griditem">item6</div>
+      </div>
+      <div class="grid-layout-row">
+        <div class="griditem">item1</div>
+        <div class="griditem">item2</div>
+        <div class="griditem">item3</div>
+        <div class="griditem">item4</div>
+        <div class="griditem">item5</div>
+        <div class="griditem">item6</div>
+      </div>
+      <div class="grid-layout-extra">
+        <div class="griditem redbox">item1</div>
+        <div class="griditem">item2</div>
+        <div class="griditem greenbox">item3</div>
+        <div class="griditem yellowbox">item4</div>
+        <div class="griditem">item5</div>
+        <div class="griditem">item6</div>
+      </div>
+      <!-- Q5-4回答はここまで -->
+    </div>
+  </body>
 
 </html>

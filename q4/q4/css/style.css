@@ -1,1 +1,90 @@
 @charset "UTF-8";
+/* top-line css */
+
+.top-line, .bottom-line{
+  display: table;
+  width: 100%;
+}
+
+.top-line > p{
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.red{
+  background: #ff7b7b;
+  width: 300px;
+}
+
+.blue{
+  background: #7b86ff;
+}
+
+.yellow{
+  background: #fff27b;
+  width: 300px;
+}
+
+/* bottom-line css */
+.bottom-line{
+  margin-top: 50px;
+}
+
+.bottom-line > p{
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.green{
+  background: #7bff91;
+}
+
+.pink{
+  background: #ff7be2;
+  width: 400px;
+}
+
+.orange{
+  background: #ffc67b;
+  width: 400px;
+}
+
+.aqua{
+  background: #7bf2ff;
+}
+
+
+
+
+
+/* .top-line{
+  display: flex;
+}
+
+.top-line > p{
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.red{
+  background: #ff7b7b;
+  width: 300px;
+}
+
+.blue{
+  background: #7b86ff;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.yellow{
+  background: #fff27b;
+  width: 300px;
+}
+
+.blue p{
+  flex-basis: auto;
+} */

@@ -1,2 +1,70 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.q1--horizontality-whitebg{
+  background-color: #fff;
+  width: 200px;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+.textAlign-center{
+  text-align: center;
+}
+
+.textAlign-center p{
+  background-color: #a4b3e9;
+  padding: 10px;
+  display:inline-block;
+ }
+ 
+.margin-center p{
+  text-align: center;
+  background-color: #a4b3e9;
+  width: 90px;
+  padding: 10px;
+  margin: auto;
+}
+/* ------------------------------------------------------------- */
+.display-table{
+  display: table;
+}
+
+.table-data{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-data p{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+/* ------------------------------------------------------------- */
+.display-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-flex p{
+  background-color: #fff;
+  padding: 10px;
+}
+/* ------------------------------------------------------------- */
+.container{
+  width: 250px;
+  height: 150px;
+  position: relative;
+}
+
+.container p{
+  position: absolute;
+  background-color: #a4b3e9;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  
+}
